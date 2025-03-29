@@ -10,7 +10,7 @@ const Services = () => {
   return (
     <>
     <div className='services'>
-    <section className="container text-center my-2">
+    <section className="container text-center cotai">
       <div className='glass'><h1>Reliable Cleaning, Fast Delivery, and Stunning Graphics—All in One Place!</h1></div>
       <div className="row mt-4">
         

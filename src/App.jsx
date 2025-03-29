@@ -5,7 +5,7 @@ import './App.css'
 import Navbar from './componets/Navbar'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from './componets/Hero'
-import Services from './assets/Services'
+import Services from './componets/Services'
 import Pricing from './componets/Pricing'
 import Cta from './componets/Cta'
 import 'bootstrap-icons/font/bootstrap-icons.css';

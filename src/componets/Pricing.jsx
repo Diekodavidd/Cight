@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
-import '../css/services.css'
+import '../css/pricig.css'
+import { div } from "framer-motion/client";
 
 const Pricing = () => {
   const [isYearly, setIsYearly] = useState(false);
@@ -43,7 +44,8 @@ const Pricing = () => {
   ];
 
   return (
-    <section
+    <div className="coza">
+        <section
       className="container text-center py-5"
       style={{
         background: "linear-gradient(135deg,rgb(122, 122, 122),rgb(0, 0, 0))",
@@ -108,6 +110,7 @@ const Pricing = () => {
         ))}
       </div>
     </section>
+    </div>
   );
 };
 

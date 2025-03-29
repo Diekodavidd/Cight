@@ -67,6 +67,11 @@ section p{
     color: white;
     --bs-text-opacity: 1;
 }
+@media (max-width:770px) {
+    .cotai{
+        margin-top: 800px;
+    }
+}
   
   
   

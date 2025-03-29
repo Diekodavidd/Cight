@@ -1,0 +1,29 @@
+.mr{
+    margin-right: 50px;
+  }
+  .glowing-borde {
+    background: rgb(31, 31, 31); /* Dark background for contrast */
+    border: 2px solid rgb(128, 55, 143);
+    box-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 217, 0), 0 0 40px rgb(234, 0, 255); /* Glowing effect */
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+.whit{
+    color: white;
+    --bs-text-opacity: 1;
+
+}
+@media (max-width:770px) {
+    .coza{
+        margin-top: 810px;
+    }
+}
+@media (max-width:500px) {
+    .coza{
+        margin-top: 900px;
+    }
+}
+  
