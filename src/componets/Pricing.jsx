@@ -9,35 +9,31 @@ const Pricing = () => {
 
   const pricingPlans = [
     {
-      title: "Basic Plan",
+      title: "Cleaning Package",
+      priceMonthly: "$39/month",
+      priceYearly: "$399/year",
+      features: [
+        "Cleaning once a week",
+        "House/Office",
+      ],
+      button: "Check Pricing",
+    },
+    {
+      title: "Delivery Package",
       priceMonthly: "$49/month",
       priceYearly: "$499/year",
       features: [
-        "Cleaning once a week",
-        "3 Deliveries per month",
-        "3 Graphic Designs per month",
+        "5 Deliveries per month",
+        "Inter-state Delivery",
       ],
-      button: "Choose Basic",
+      button: "Check Pricing",
     },
     {
-      title: "Premium Plan",
-      priceMonthly: "$99/month",
-      priceYearly: "$999/year",
-      features: [
-        "Bi-weekly Cleaning",
-        "7 Deliveries per month",
-        "5 Graphic Designs per month",
-      ],
-      button: "Choose Premium",
-    },
-    {
-      title: "Enterprise Plan",
+      title: "Graphic Design Package",
       priceMonthly: "Custom Pricing",
       priceYearly: "Custom Pricing",
       features: [
-        "Customized Cleaning Schedule",
-        "Unlimited Deliveries",
-        "Unlimited Graphic Designs",
+        "5 Graphic Designs per month",
       ],
       button: "Contact Us",
     },
