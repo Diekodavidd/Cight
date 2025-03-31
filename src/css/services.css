@@ -43,12 +43,36 @@ section p{
 .glowing-border {
   background: rgb(31, 31, 31); /* Dark background for contrast */
   border: 2px solid cyan;
-  box-shadow: 0 0 10px cyan, 0 0 20px cyan, 0 0 40px cyan; /* Glowing effect */
+  box-shadow: 0 0 10px cyan, 0 0 10px cyan, 0 0 10px cyan; /* Glowing effect */
   text-align: center;
   color: white;
   font-weight: bold;
   font-family: Arial, sans-serif;
   cursor: pointer;
+  --bs-card-spacer-y: 1rem;
+    --bs-card-spacer-x: 1rem;
+    --bs-card-title-spacer-y: 0.5rem;
+    --bs-card-title-color: ;
+    --bs-card-subtitle-color: ;
+    --bs-card-border-width: var(--bs-border-width);
+    --bs-card-border-color: var(--bs-border-color-translucent);
+    --bs-card-border-radius: var(--bs-border-radius);
+    --bs-card-box-shadow: ;
+    --bs-card-inner-border-radius: calc(var(--bs-border-radius) -(var(--bs-border-width)));
+    --bs-card-cap-padding-y: 0.5rem;
+    --bs-card-cap-padding-x: 1rem;
+    --bs-card-cap-bg: rgba(var(--bs-body-color-rgb), 0.03);
+    --bs-card-cap-color: ;
+    --bs-card-height: ;
+    --bs-card-color: ;
+    --bs-card-bg: var(--bs-body-bg);
+    --bs-card-img-overlay-padding: 1rem;
+    --bs-card-group-margin: 0.75rem;
+    position: relative;
+    display: flex
+;
+    flex-direction: column;
+    min-width: 0;
   }
 .mr{
     margin-right: 50px;

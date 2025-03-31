@@ -20,7 +20,7 @@ const Services = () => {
           whileHover={{ scale: 1.05 }} 
           whileTap={{ scale: 0.95 }}
         >
-          <div className="card shadow h-100 glowing-border">
+          <div className=" h-100 glowing-border">
             <div className="card-body">
               <img
                 src={clea}
@@ -41,7 +41,7 @@ const Services = () => {
           whileHover={{ scale: 1.05 }} 
           whileTap={{ scale: 0.95 }}
         >
-          <div className="card shadow h-100 glowing-border">
+          <div className=" h-100 glowing-border">
             <div className="card-body">
               <img
                 src={deli}
@@ -62,7 +62,7 @@ const Services = () => {
           whileHover={{ scale: 1.05 }} 
           whileTap={{ scale: 0.95 }}
         >
-          <div className="card shadow h-100 glowing-border">
+          <div className=" h-100 glowing-border">
             <div className="card-body">
               <img
                 src={grap}
