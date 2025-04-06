@@ -238,7 +238,7 @@ const Entrance = () => {
                     </div>
      </div>
      <div className='faw'>
-     <button className="login-btn mmm" style={{color:"black", textDecoration:"none", fontSize:"15px", fontWeight:"500"}} onClick={togglePopup}>SIGN UP</button>
+     <button className="login-btn mmm" style={{color:"black", textDecoration:"none"}} onClick={togglePopup}>SIGN UP</button>
      </div>
       </div>
       </div>
